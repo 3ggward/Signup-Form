@@ -1,0 +1,45 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+ 
+body {
+    font-family: norse-bold;
+    display: flex;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    flex: 1;
+    background-color: green;
+    background-image: url("leaf-background.jpg");
+    background-size: cover;
+}
+
+.signup {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.topSection {
+    flex: 1;
+}
+
+.midSection {
+    flex: 1;
+    background-color: gray;
+}
+
+.botSection {
+    flex: 1;
+}
